@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon projet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="bleu">
+        <i class="fa-solid fa-phone"></i>
+        <p>
+            appeler nous au <a href="tel:785207689">785207689</a>
+        </p>
+
+    </div>
+    <div id="blanc">
+        <img src="../images/monlogo.png" alt="f">
+        <div id="navbar">
+            <ul>
+                <li class="navitem actif">Accueil</li>
+                <li class="navitem">Tuyauterie</li>
+                <li class="navitem">Routes</li>
+                <li class="navitem">construction</li>
+
+            </ul>
+
+
+        </div>
+    </div>
+    <div id="noir">
+        <div class="w3-content">
+            <img class="mySlides" src="../images/accueil.jpg" style="width:100%">
+            <img class="mySlides" src="../images/accueil2.jpg" style="width:100%">
+        </div>
+    </div>
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000);
+        }
+    </script>
+
+</body>
+
+</html>
