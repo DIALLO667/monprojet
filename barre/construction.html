@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSTRUCTIONS</title>
+    <link rel="stylesheet" href="styleconstru.css">
+
+</head>
+
+<body>
+    <div id="tuyau">
+        <h1>
+            CONSTRUCTIONS
+        </h1>
+    </div>
+    <div id="navbar">
+        <div>
+            <a href="page.html">Accueil</a>
+        </div>
+        <div>
+            <a href="routes.html">routes</a>
+
+        </div>
+
+        <div>
+            <a href="tuyau.html">tuyauterie</a>
+        </div>
+        <div>
+            <a href="#temoingnages">temoingnages</a>
+
+        </div>
+        <div>
+            <a href="#prix">prix</a>
+
+        </div>
+
+    </div>
+    <div id="bloc">
+        <div class="texte chill">
+            <!-- <a href="page.html">RETOUR A L'ACCUEIL</a> -->
+            <h2>
+                Notre entreprise de construction BTP vous propose une expertise inégalée dans tous les aspects du
+                secteur. Que ce soit pour des projets de construction résidentielle, commerciale ou industrielle, notre
+                équipe hautement qualifiée est prête à répondre à vos besoins. Nous offrons des services complets, de la
+                conception initiale à la réalisation finale, en passant par la gestion de projet et la coordination des
+                travaux. Nous sommes fiers de notre engagement envers la qualité, la sécurité et le respect des délais.
+                Faites-nous confiance pour concrétiser vos projets de construction avec efficacité et professionnalisme.
+                Contactez-nous dès aujourd'hui pour une consultation personnalisée.
+
+            </h2>
+        </div>
+        <div class="img chill">
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="../images/constru1.jpg" style="width:100%">
+                <!-- <img class="mySlides" src="../images/constru2.jpg" style="width:100%"> -->
+                <img class="mySlides" src="../images/constru5.jpg" style="width:100%">
+                <img class="mySlides" src="../images/constru3.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <section id="prix">
+        <div class="pricing">
+            <!-- Première colonne de prix -->
+            <div class="pricing-column">
+                <h2>Plan de base</h2>
+                <p>a partir de 200.000F</p>
+                <ul>
+                    <li>
+
+                        service rapide
+                    </li>
+
+                </ul>
+                <button>Acheter maintenant</button>
+            </div>
+            <!-- Deuxième colonne de prix -->
+            <div class="pricing-column">
+                <h2>Plan intermédiaire</h2>
+                <p>a partir de 500.000F</p>
+                <ul>
+                    <li>
+                        service rapide
+                    </li>
+                    <li>
+                        tous les frais sont prix a nos charges
+                    </li>
+                </ul>
+                <button>Acheter maintenant</button>
+            </div>
+            <!-- Troisième colonne de prix -->
+            <div class="pricing-column">
+                <h2>Plan premium</h2>
+                <p>a partir de 700.000F</p>
+                <ul>
+                    <li>pour un service encore plus rapide choisissez notre pack premium</li>
+                    <li>tous les frais sont prix a nos charges</li>
+                    <li>nous nous en occupont de bout en bout</li>
+                </ul>
+                <button>Acheter maintenant</button>
+            </div>
+        </div>
+
+    </section>
+    <section id="temoingnages">
+        <div class="temoin1">
+            <img src="../images/dg4.jpg" alt="d">
+            <h2>
+                Témoignage de M.AFFA
+            </h2>
+            <p>
+                IMO SERVICES a réalisé notre projet avec professionnalisme, qualité et efficacité. Nous les recommandons
+                vivement pour leurs services impeccables.
+            </p>
+        </div>
+        <div class="temoin2">
+            <img src="../images/dg5.jpg" alt="b">
+            <h2>
+                Témoignage de M.BOUBY
+            </h2>
+            <p>
+                L'équipe de IMO a dépassé nos attentes avec son professionnalisme et sa qualité de travail
+                exceptionnelle."
+            </p>
+        </div>
+    </section>
+    <section id="avis">
+        <div class="temoin3 lord">
+            <img src="../images/dg6.jpg" alt="">
+            <h2>
+                Témoignage de TANE FATIM
+
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas dolorum fugit id aliquid ut in suscipit,
+                delectus cumque porro magnam blanditiis nobis iusto laudantium molestiae accusantium quae, praesentium
+                laborum optio.
+            </p>
+
+        </div>
+        <div class="temoin4 lord">
+            <img src="../images/pexels-august-de-richelieu-4427506.jpg" alt="jj">
+            <h2>
+                Témoignage de MAIMOUNA
+
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas dolorum fugit id aliquid ut in suscipit,
+                delectus cumque porro magnam blanditiis nobis iusto laudantium molestiae accusantium quae, praesentium
+                laborum optio.
+            </p>
+
+        </div>
+    </section>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

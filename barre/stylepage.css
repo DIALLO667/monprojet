@@ -1,0 +1,136 @@
+section {
+    height: 740px;
+    width: 100%;
+    padding: 20px 10px;
+
+
+}
+
+#dg {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/oui.jpg);
+}
+
+#dg p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#REALISATIONS {
+    height: 800px;
+    /* background-color: black; */
+
+}
+
+.infos {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.texte h2 {
+    /* padding: 30px; */
+    margin-top: 0 auto;
+    text-align: center;
+
+}
+
+.premier {
+    height: 75%;
+    width: 32%;
+    text-align: center;
+    color: white;
+    /* background-color: aquamarine; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 5px rgba(0, 0, 0, 0.3);
+}
+
+.premier p {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.premier img {
+    height: 55%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.second {
+    height: 75%;
+    width: 30%;
+    text-align: center;
+    color: white;
+    /* background-color: aquamarine; */
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 5px rgba(0, 0, 0, 0.3);
+}
+
+.second p {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.second img {
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.troisieme {
+    height: 75%;
+    width: 32%;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid 5px rgba(0, 0, 0, 0.3);
+    /* background-color: aquamarine; */
+}
+
+.troisieme p {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.troisieme img {
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* .chill {
+    background-image: url(../images/tuyau.jpg);
+    background-size: cover;
+    background-position: center; */
+/* } */
+
+
+
+form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#contact {
+    background-image: url(../images/boy-8474750_1280.jpg);
+    object-fit: cover;
+    height: 40%;
+    /* background-repeat: no-repeat; */
+
+}
+
+.okey {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: solid 1px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    margin-top: 50px;
+    color: white;
+    margin-left: 990px;
+}

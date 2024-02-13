@@ -86,6 +86,89 @@ img.mySlides {
 
 }
 
-/* img .mySlides { */
-/* width:100% ; */
-/* } */
+#presentation {
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+/* #presentation h1 {
+    border: solid gray;
+    background-color: gray;
+} */
+
+#presentation .important {
+    text-transform: uppercase;
+    color: gray;
+
+}
+
+#directeur {
+    height: 300px;
+    width: 92%;
+    /* background-color: red; */
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+}
+
+.lord {
+    height: 300px;
+    width: 100%;
+    /* display: flex; */
+    justify-content: space-between;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.lord button {
+    height: 40px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 1);
+    /* margin: 0 auto; */
+    /* margin-left: 110px; */
+    border: gray;
+    border-bottom: solid red 2px;
+
+
+}
+
+.lord button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+
+}
+
+
+.realisations {
+    border: solid rgba(0, 0, 0, 0.2) 1px;
+
+
+}
+
+.realisations h1 {
+    text-align: center;
+    /* padding: 20px; */
+
+}
+
+.mot {
+
+    /* border: solid gray; */
+
+}
+
+.mot h1 {
+    text-align: center;
+}

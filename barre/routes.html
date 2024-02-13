@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>notre services tuyauterie</title>
+    <link rel="stylesheet" href="styleroutes.css">
+
+</head>
+
+<body>
+    <div id="tuyau">
+        <h1>
+            CONFECTION DE ROUTES
+        </h1>
+    </div>
+    <div id="navbar">
+        <div>
+            <a href="page.html">Accueil</a>
+        </div>
+        <div>
+            <a href="tuyau.html">tuyauterie</a>
+
+        </div>
+
+        <div>
+            <a href="construction.html">construction</a>
+        </div>
+        <div>
+            <a href="#temoingnages">temoingnages</a>
+
+        </div>
+        <div>
+            <a href="#prix">prix</a>
+
+        </div>
+
+    </div>
+    <div id="bloc">
+        <div class="texte chill">
+
+            <h2>
+                Chez IMO SERVICES, nous sommes spécialisés dans la réalisation de projets routiers de grande
+                envergure. Forts de notre expertise technique et de notre engagement envers la qualité, nous sommes
+                votre partenaire de confiance pour tous vos besoins en matière de construction de routes. Que ce soit
+                pour des autoroutes, des routes urbaines ou des infrastructures rurales, notre équipe expérimentée est
+                prête à relever les défis les plus complexes. Nous sommes fiers de notre approche axée sur l'efficacité,
+                la durabilité et la sécurité. Contactez-nous dès aujourd'hui pour discuter de votre projet de
+                construction routière.
+
+            </h2>
+        </div>
+        <div class="img chill">
+            <!-- <h2 class="w3-center">Manual Slideshow</h2> -->
+
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="../images/construction-site-2630480_1280.jpg" style="width:100%">
+                <img class="mySlides" src="../images/rout2.jpg" style="width:100%">
+                <img class="mySlides" src="../images/rout3.jpg" style="width:100%">
+                <img class="mySlides" src="../images/rout4.jpg" style="width:100%">
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+
+            <!-- 
+            <img src="../images/accueil4.jpg" alt=""> -->
+
+
+        </div>
+    </div>
+    <section id="prix">
+        <div class="pricing">
+            <!-- Première colonne de prix -->
+            <div class="pricing-column">
+                <h2>Plan de base</h2>
+                <p>a partir de 200.000F</p>
+                <ul>
+                    <li>
+
+                        service rapide
+                    </li>
+
+                </ul>
+                <button>Acheter maintenant</button>
+            </div>
+            <!-- Deuxième colonne de prix -->
+            <div class="pricing-column">
+                <h2>Plan intermédiaire</h2>
+                <p>a partir de 500.000F</p>
+                <ul>
+                    <li>
+                        service rapide
+                    </li>
+                    <li>
+                        tous les frais sont prix a nos charges
+                    </li>
+                </ul>
+                <button>Acheter maintenant</button>
+            </div>
+            <!-- Troisième colonne de prix -->
+            <div class="pricing-column">
+                <h2>Plan premium</h2>
+                <p>a partir de 700.000F</p>
+                <ul>
+                    <li>pour un service encore plus rapide choisissez notre pack premium</li>
+                    <li>tous les frais sont prix a nos charges</li>
+                    <li>nous nous en occupont de bout en bout</li>
+                </ul>
+                <button>Acheter maintenant</button>
+            </div>
+        </div>
+
+    </section>
+    <section id="temoingnages">
+        <div class="temoin1">
+            <img src="../images/pexels-andrea-piacquadio-733872.jpg" alt="d">
+            <h2>
+                Témoignage de MME.RAMA
+            </h2>
+            <p>
+                IMO SERVICES a réalisé notre projet avec professionnalisme, qualité et efficacité. Nous les recommandons
+                vivement pour leurs services impeccables.
+            </p>
+        </div>
+        <div class="temoin2">
+            <img src="../images/dg3.jpg" alt="b">
+            <h2>
+                Témoignage de M.DIOP
+            </h2>
+            <p>
+                L'équipe de IMO a dépassé nos attentes avec son professionnalisme et sa qualité de travail
+                exceptionnelle."
+            </p>
+        </div>
+    </section>
+    <section id="avis">
+        <div class="temoin3 lord">
+            <img src="../images/femme2.jpg" alt="">
+            <h2>
+                Témoignage de MME.dupont
+
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas dolorum fugit id aliquid ut in suscipit,
+                delectus cumque porro magnam blanditiis nobis iusto laudantium molestiae accusantium quae, praesentium
+                laborum optio.
+            </p>
+
+        </div>
+        <div class="temoin4 lord">
+            <img src="../images/dg2.jpg" alt="jj">
+            <h2>
+                Témoignage de M.stev
+
+            </h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas dolorum fugit id aliquid ut in suscipit,
+                delectus cumque porro magnam blanditiis nobis iusto laudantium molestiae accusantium quae, praesentium
+                laborum optio.
+            </p>
+
+        </div>
+    </section>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+</body>
+
+</html>
