@@ -21,14 +21,12 @@ section {
 }
 
 #REALISATIONS {
-    height: 800px;
-    /* background-color: black; */
+    /* height: ; */
+    background-color: black;
 
 }
 
 .infos {
-    display: flex;
-    justify-content: space-around;
     height: 100%;
 }
 
@@ -39,70 +37,29 @@ section {
 
 }
 
-.premier {
-    height: 75%;
-    width: 32%;
+
+
+.realisationitem {
+    /* height: 75%; */
+    /* width: 32%; */
     text-align: center;
     color: white;
     /* background-color: aquamarine; */
     background-color: rgba(0, 0, 0, 0.5);
     border: solid 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
 }
 
-.premier p {
+.realisationitem p {
     padding-top: 25px;
     text-align: center;
 }
 
-.premier img {
-    height: 55%;
+.realisationitem img {
+    height: 200px;
     object-fit: cover;
     width: 100%;
 }
-
-.second {
-    height: 75%;
-    width: 30%;
-    text-align: center;
-    color: white;
-    /* background-color: aquamarine; */
-    background-color: rgba(0, 0, 0, 0.5);
-    border: solid 5px rgba(0, 0, 0, 0.3);
-}
-
-.second p {
-    padding-top: 25px;
-    text-align: center;
-}
-
-.second img {
-    height: 55%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.troisieme {
-    height: 75%;
-    width: 32%;
-    text-align: center;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    border: solid 5px rgba(0, 0, 0, 0.3);
-    /* background-color: aquamarine; */
-}
-
-.troisieme p {
-    padding-top: 25px;
-    text-align: center;
-}
-
-.troisieme img {
-    height: 55%;
-    width: 100%;
-    object-fit: cover;
-}
-
-
 
 /* .chill {
     background-image: url(../images/tuyau.jpg);
@@ -118,7 +75,7 @@ form {
 }
 
 #contact {
-    background-image: url(../images/boy-8474750_1280.jpg);
+    /* background-image: url(../images/boy-8474750_1280.jpg); */
     object-fit: cover;
     height: 40%;
     /* background-repeat: no-repeat; */
@@ -134,3 +91,32 @@ form {
     color: white;
     margin-left: 990px;
 }
+
+/* 
+/* telephone */
+/* @media screen and (max-width: 800px) {
+    body {
+        background-color: brown;
+    }
+    
+} */
+
+/* tablette */
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    body {
+        background-color: rgb(42, 165, 58);
+    }
+
+    .infos {
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/* pc */
+/* @media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(86, 107, 113);
+    }
+}   */
