@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>notre services tuyauterie</title>
-    <link rel="stylesheet" href="styletuyau.css">
+    <link rel="stylesheet" href="styleservice.css">
+    <link rel="stylesheet" href="styleavion.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
@@ -14,9 +15,6 @@
         href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-
-
 </head>
 
 <body style="background-color: black;color: white;">
@@ -24,6 +22,9 @@
         <h1>
             ROUTES
         </h1>
+        <p class="mx-auto" style="max-width: 80%;text-align: center;">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad itaque id iste quidem error inventore ipsa aperiam molestias praesentium, eos iure cupiditate. Itaque facere voluptatem mollitia error, in voluptas exercitationem!
+        </p>
     </div>
     <!-- barre de naviguation entre les liens -->
     <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -65,15 +66,46 @@
     </nav> -->
     <div class="navbar">
         <a href="page.html">Accueil</a>
-        <a href="routes.html">routes</a>
-        <a href="construction.html">construction</a>
-        <a href="temoingnages">temoingnages</a>
         <a href="#prix">Prix</a>
+        <a href="#temoignageID">temoignages</a>
+
+        <a class="active"  href="routes.html">Routes</a>
+        <a  href="construction.html">Construction</a>
+        <a  href="tuyau.html">Tuyau</a>
     </div>
 
 
+    <div id="gallerie" class="container  mx-auto mt-4 ">
 
-    <div id="sliderautomatic" class="mt-5 ">
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <p class="lead">Images</p>
+        </div>
+        <div class="row">
+            
+                        <div class="col ">
+                            <div class="card" style="">
+                                <img src="images/accueil2.jpg" class="card-img-top" alt="...">
+                            </div>
+                        </div>
+                        <div class="col ">
+                            <div class="card" style="">
+                                <img src="https://www.monmagasinvert.fr/media/catalog/product/cache/5739b9c8f18ae7062b084f39115e268a/1/6/1680675.jpg" class="card-img-top" alt="...">
+                              </div>
+                        </div>
+                        <div class="col ">
+                            <div class="card" style="">
+                                <img src="https://www.monmagasinvert.fr/media/catalog/product/cache/5739b9c8f18ae7062b084f39115e268a/1/6/1680675.jpg" class="card-img-top" alt="...">
+                              </div>
+                        </div>
+                  
+
+        </div>
+
+    </div>
+
+
+ 
+    <!-- <div id="sliderautomatic" class="mt-5 ">
         <h5 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure et accusamus, dolore quia
             dolorum cum quo. Vitae est, minima laboriosam inventore alias maiores fugiat, amet quia, repellat corrupti
             reprehenderit eaque?</h5>
@@ -87,7 +119,7 @@
         </div>
     </div>
 
-
+ -->
 
 
 
@@ -128,7 +160,7 @@
 
 
         <!-- <div class="container"> -->
-        <div class="card-deck mb-3 text-center">
+        <div class="card-deck mb-3 text-center mx-auto">
             <div class="card mb-4 box-shadow">
                 <div class="card-header">
                     <h4 class="my-0 font-weight-normal">Free</h4>
@@ -248,7 +280,7 @@
 
 
 
-    <div class="temoignagesElements">
+    <div id="temoignageID" class="temoignagesElements">
 
 
         <div class="">
@@ -387,11 +419,11 @@
 
     </div>
 
-    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
         <img src="https://cdn.icon-icons.com/icons2/38/PNG/512/takeoffavion_avion_4532.png" alt="">
+    </button>
 
-
-    </button> -->
 
     <script>
         // Get the button
