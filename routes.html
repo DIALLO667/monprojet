@@ -5,22 +5,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>notre services tuyauterie</title>
-    <link rel="stylesheet" href="styleroutes.css">
+    <link rel="stylesheet" href="styletuyau.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Lien du js pour le slider des temoingnages -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
 
 </head>
 
-<body>
+<body style="background-color: black;color: white;">
     <div id="tuyau">
         <h1>
-            CONFECTION DE ROUTES
+            ROUTES
         </h1>
     </div>
-    <div id="navbar">
+    <!-- barre de naviguation entre les liens -->
+    <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="page.html">Accueil</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="routes.html">Routes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="construction.html">Constructions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href=".display-4">Témoignage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#prix">prix</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            prix
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tuyau.html">tuyauterie</a></li>
+                            <li><a class="dropdown-item" href="routes.html">routes</a></li>
+                            <li><a class="dropdown-item" href="construction.html">construction</a>
+                            </li>
+                        </ul> -->
+    <!-- </li>
+                </ul>
+            </div>
+        </div>
+    </nav> -->
+    <div class="navbar">
+        <a href="page.html">Accueil</a>
+        <a href="routes.html">routes</a>
+        <a href="construction.html">construction</a>
+        <a href="temoingnages">temoingnages</a>
+        <a href="#prix">Prix</a>
+    </div>
+
+
+
+    <div id="sliderautomatic" class="mt-5 ">
+        <h5 class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure et accusamus, dolore quia
+            dolorum cum quo. Vitae est, minima laboriosam inventore alias maiores fugiat, amet quia, repellat corrupti
+            reprehenderit eaque?</h5>
+        <div class="w3-content w3-section">
+            <img class="mySlides" src="https://www.act-sn.com/wp-content/uploads/2018/06/120-1200x650.jpg"
+                style="width:100%">
+            <img class="mySlides" src="https://www.act-sn.com/wp-content/uploads/2018/06/040-1200x650.jpg"
+                style="width:100%">
+            <img class="mySlides" src="https://www.act-sn.com/wp-content/uploads/2018/06/084-1200x650.jpg"
+                style="width:100%">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- <div id="navbar">
         <div>
             <a href="page.html">Accueil</a>
         </div>
         <div>
-            <a href="tuyau.html">tuyauterie</a>
+            <a href="routes.html">routes</a>
 
         </div>
 
@@ -36,88 +112,93 @@
 
         </div>
 
-    </div>
-    <div id="bloc">
-        <div class="texte chill">
+    </div> -->
 
-            <h2>
-                Chez IMO SERVICES, nous sommes spécialisés dans la réalisation de projets routiers de grande
-                envergure. Forts de notre expertise technique et de notre engagement envers la qualité, nous sommes
-                votre partenaire de confiance pour tous vos besoins en matière de construction de routes. Que ce soit
-                pour des autoroutes, des routes urbaines ou des infrastructures rurales, notre équipe expérimentée est
-                prête à relever les défis les plus complexes. Nous sommes fiers de notre approche axée sur l'efficacité,
-                la durabilité et la sécurité. Contactez-nous dès aujourd'hui pour discuter de votre projet de
-                construction routière.
 
-            </h2>
+
+
+
+
+    <section class="" id="prix">
+
+        <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+            <h1 class="display-4">Prix</h1>
+            <p class="lead">Notre grille tarifaire</p>
         </div>
-        <div class="img chill">
-            <!-- <h2 class="w3-center">Manual Slideshow</h2> -->
 
-            <div class="w3-content w3-display-container">
-                <img class="mySlides" src="../images/construction-site-2630480_1280.jpg" style="width:100%">
-                <img class="mySlides" src="../images/rout2.jpg" style="width:100%">
-                <img class="mySlides" src="../images/rout3.jpg" style="width:100%">
-                <img class="mySlides" src="../images/rout4.jpg" style="width:100%">
 
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        <!-- <div class="container"> -->
+        <div class="card-deck mb-3 text-center">
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Free</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"> 500.000F
+                        <small class="text-muted">/ mois
+                        </small>
+                    </h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+
+
+                        <ul>
+                            <li>
+                                service rapide
+                            </li>
+
+                        </ul>
+
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary ">commencer</button>
+                </div>
             </div>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Pro</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title"> 700000 <small class="text-muted">/mois
+                        </small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <ul>
+                            <li>
+                                service rapide
+                            </li>
+                            <li>
+                                tous les frais sont prix a nos charges
+                            </li>
+                        </ul>
 
-            <!-- 
-            <img src="../images/accueil4.jpg" alt=""> -->
-
-
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">commencer</button>
+                </div>
+            </div>
+            <div class="card mb-4 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">900000 <small class="text-muted">/mois</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <ul>
+                            <li>pour un service encore plus rapide choisissez notre pack premium</li>
+                            <li>tous les frais sont prix a nos charges</li>
+                            <li>nous nous en occupont de bout en bout</li>
+                        </ul>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-primary">commencer</button>
+                </div>
+            </div>
         </div>
-    </div>
-    <section id="prix">
-        <div class="pricing">
-            <!-- Première colonne de prix -->
-            <div class="pricing-column">
-                <h2>Plan de base</h2>
-                <p>a partir de 200.000F</p>
-                <ul>
-                    <li>
 
-                        service rapide
-                    </li>
-
-                </ul>
-                <button>Acheter maintenant</button>
-            </div>
-            <!-- Deuxième colonne de prix -->
-            <div class="pricing-column">
-                <h2>Plan intermédiaire</h2>
-                <p>a partir de 500.000F</p>
-                <ul>
-                    <li>
-                        service rapide
-                    </li>
-                    <li>
-                        tous les frais sont prix a nos charges
-                    </li>
-                </ul>
-                <button>Acheter maintenant</button>
-            </div>
-            <!-- Troisième colonne de prix -->
-            <div class="pricing-column">
-                <h2>Plan premium</h2>
-                <p>a partir de 700.000F</p>
-                <ul>
-                    <li>pour un service encore plus rapide choisissez notre pack premium</li>
-                    <li>tous les frais sont prix a nos charges</li>
-                    <li>nous nous en occupont de bout en bout</li>
-                </ul>
-                <button>Acheter maintenant</button>
-            </div>
-        </div>
+        <!-- </div> -->
 
     </section>
-    <section id="temoingnages">
+    <!-- <section id="temoingnages">
         <div class="temoin1">
-            <img src="../images/pexels-andrea-piacquadio-733872.jpg" alt="d">
+            <img src="../images/pexels-andrea-piacquadio-834863.jpg" alt="d">
             <h2>
-                Témoignage de MME.RAMA
+                Témoignage de M. Dupont
             </h2>
             <p>
                 IMO SERVICES a réalisé notre projet avec professionnalisme, qualité et efficacité. Nous les recommandons
@@ -125,9 +206,9 @@
             </p>
         </div>
         <div class="temoin2">
-            <img src="../images/dg3.jpg" alt="b">
+            <img src="../images/pexels-christina-morillo-1181519.jpg" alt="b">
             <h2>
-                Témoignage de M.DIOP
+                Témoignage de MME.CLARA
             </h2>
             <p>
                 L'équipe de IMO a dépassé nos attentes avec son professionnalisme et sa qualité de travail
@@ -137,7 +218,7 @@
     </section>
     <section id="avis">
         <div class="temoin3 lord">
-            <img src="../images/femme2.jpg" alt="">
+            <img src="../images/pexels-christina-morillo-1181686.jpg" alt="">
             <h2>
                 Témoignage de MME.dupont
 
@@ -150,7 +231,7 @@
 
         </div>
         <div class="temoin4 lord">
-            <img src="../images/dg2.jpg" alt="jj">
+            <img src="../images/man3crop.jpg" alt="jj">
             <h2>
                 Témoignage de M.stev
 
@@ -162,26 +243,198 @@
             </p>
 
         </div>
-    </section>
-    <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
+    </section> -->
 
-        function plusDivs(n) {
-            showDivs(slideIndex += n);
+
+
+
+    <div class="temoignagesElements">
+
+
+        <div class="">
+            <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 text-white">Témoignages</h1>
+                <p class="lead text-white">nos clients</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face front-face">
+                            <img src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                                alt="" class="profile">
+                            <div class="pt-3 text-uppercase name">
+                                Robert Garrison
+                            </div>
+                            <div class="designation">Android Developer</div>
+                        </div>
+                        <div class="face back-face">
+                            <span class="fas fa-quote-left"></span>
+                            <div class="testimonial">
+                                I made bacck the purchase price in just 48 hours! Thank you for making it pain less,
+                                pleasant.
+                                The service was execellent. I will refer everyone I know.
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face front-face">
+                            <img src="https://images.unsplash.com/photo-1600486913747-55e5470d6f40?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                                alt="" class="profile">
+                            <div class="pt-3 text-uppercase name">
+                                Jeffery Kennan
+                            </div>
+                            <div class="designation">Full Stack Developer</div>
+                        </div>
+                        <div class="face back-face">
+                            <span class="fas fa-quote-left"></span>
+                            <div class="testimonial">
+                                Really good, you have saved our business! I made bacck the purchase price in just 48
+                                hours!
+                                man, this thing is getting better and better as I learn more about it.
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face front-face">
+                            <img src="images/pexels-andrea-piacquadio-733872.jpg" alt="" class=" profile">
+                            <div class="pt-3 text-uppercase name">
+                                Issac Maxwell
+                            </div>
+                            <div class="designation">Finance Director</div>
+                        </div>
+                        <div class="face back-face">
+                            <span class="fas fa-quote-left"></span>
+                            <div class="testimonial">
+                                Account keeper is the most valuable business research we have EVER purchased. Without
+                                electrician, we would ahave gone bankrupt by now.
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face front-face">
+                            <img src="images/pexels-christina-morillo-1181519.jpg" alt="" class="profile">
+                            <div class="pt-3 text-uppercase name">
+                                Issac Maxwell
+                            </div>
+                            <div class="designation">Finance Director</div>
+                        </div>
+                        <div class="face back-face">
+                            <span class="fas fa-quote-left"></span>
+                            <div class="testimonial">
+                                Account keeper is the most valuable business research we have EVER purchased. Without
+                                electrician, we would ahave gone bankrupt by now.
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face front-face">
+                            <img src="images/pexels-christina-morillo-1181686.jpg" alt="" class="profile">
+                            <div class="pt-3 text-uppercase name">
+                                Issac Maxwell
+                            </div>
+                            <div class="designation">Finance Director</div>
+                        </div>
+                        <div class="face back-face">
+                            <span class="fas fa-quote-left"></span>
+                            <div class="testimonial">
+                                Account keeper is the most valuable business research we have EVER purchased. Without
+                                electrician, we would ahave gone bankrupt by now.
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="face front-face">
+                            <img src="https://images.unsplash.com/photo-1614574762522-6ac2fbba2208?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjY2fHxtYW58ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                alt="" class="profile">
+                            <div class="pt-3 text-uppercase name">
+                                Issac Maxwell
+                            </div>
+                            <div class="designation">Finance Director</div>
+                        </div>
+                        <div class="face back-face">
+                            <span class="fas fa-quote-left"></span>
+                            <div class="testimonial">
+                                Account keeper is the most valuable business research we have EVER purchased. Without
+                                electrician, we would ahave gone bankrupt by now.
+                            </div>
+                            <span class="fas fa-quote-right"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="https://cdn.icon-icons.com/icons2/38/PNG/512/takeoffavion_avion_4532.png" alt="">
+
+
+    </button> -->
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
         }
 
-        function showDivs(n) {
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
             var i;
             var x = document.getElementsByClassName("mySlides");
-            if (n > x.length) { slideIndex = 1 }
-            if (n < 1) { slideIndex = x.length }
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
-            x[slideIndex - 1].style.display = "block";
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 2000); // Change image every 2 seconds
         }
     </script>
+
+
+
+
+
 
 </body>
 

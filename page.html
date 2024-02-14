@@ -97,7 +97,7 @@
         </div>
 
     </section>
-    <!-- <section class="bg-danger" id="contact">
+    <section class="bg-danger" id="contact">
         <h1 class="text-center">Contactez-nous</h1>
 
         <form class="">
@@ -118,24 +118,54 @@
 
                 <textarea class="form-control" placeholder="Ex : j'ai un projet de construction pouvez vous m'aider ?"
                     id="floatingTextarea"></textarea>
-                 <label for="floatingTextarea"></label> 
-    </div>
+                <label for="floatingTextarea"></label>
+            </div>
 
 
 
 
-    <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    <div class="okey">
-        <div class="icon  ">
-            <a href="page.html">retour en haut de page</a>
-        </div>
-        <div>
-            <i class="bi bi-airplane"></i>
-        </div>
-    </div>
+            <button type="submit" class="btn btn-danger">Envoyer</button>
+        </form>
 
-    </section> -->
+
+    </section>
+
+
+
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <img src="https://cdn.icon-icons.com/icons2/38/PNG/512/takeoffavion_avion_4532.png" alt="">
+
+
+    </button>
+
+
+
+
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
 
 
 
